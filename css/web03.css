@@ -1,0 +1,51 @@
+.titlebg{
+    background:#00F;
+    
+}
+.tablebg{
+    background:#00FFFF;
+    display: none
+}
+.table tr td img:hover{
+    filter: invert(100%);
+}
+.mainbg{
+    background-image:url(../images/park0301.jpg)
+}
+.shebg{
+    background:#FFFFCC
+}
+@media (min-width:992px)
+{
+    nav{
+        display:none !important;    
+    }
+}
+@media (min-width:992px)
+{
+    .tablebg{
+        display:block !important;    
+    }
+}
+@media (min-width:992px){
+    .titlebg{
+        width:100% !important;
+    }
+}
+
+.yangtxt{
+    font-size:13px;
+    font-family:'標楷體';
+    font-weight: bold;
+    font-style:italic;
+    color:#00F;
+}
+.user{
+    color:#000;
+    font-size:16px;
+    font-family: '標楷體'
+}
+
+.d-block{
+    margin: auto;
+}
